@@ -5,6 +5,9 @@
 html,
 body {
   background-color: #161E2D;
+}
+
+body, a {
   font-family:Maison Neue Medium;
   color: white;
 }
@@ -19,4 +22,5 @@ footer {
   background-color: #1A2737;
   text-align: center;
   font-size: 12px;
+  width: 100%;
 }
