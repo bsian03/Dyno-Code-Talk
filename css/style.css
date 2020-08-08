@@ -21,6 +21,10 @@ h1 {
   font-size: 32px;
 }
 
+details {
+  margin-left: 2em;
+}
+
 footer {
   position: fixed;
   bottom: 0;
