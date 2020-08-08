@@ -5,6 +5,11 @@
 html,
 body {
   background-color: #161E2D;
+  margin: 0;
+}
+
+#container {
+  margin: 8px;
 }
 
 body, a {
