@@ -37,4 +37,35 @@ Do you need help with something code related? Here are some resources that may b
   - [w3schools - JavaScript and HTML DOM reference](https://www.w3schools.com/jsref/)
 
   </details>
+  <details>
+    <summary>Callbacks</summary>
+
+  - [Callback Hell](http://callbackhell.com/)
+
+  - Someone help me find more resources for this pls thx
+
+  </details>
+  <details>
+    <summary>Promises/Asynchronous functions</summary>
+
+  - [MDN - Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/)
+
+  - [MDN - await operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await/)
+
+  - [MDN - Async function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function/)
+
+  - [web.dev (Google Developers) - JavaScript Promises: An introduction](https://web.dev/promises/)
+
+  - [Medium article](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-promise-27fc71e77261/)
+
+  - [Ponyfoo - Understanding JavaScript's async await](https://ponyfoo.com/articles/understanding-javascript-async-await/)
+
+  - [freeCodeCamp - JavaScript — from callbacks to async/await](https://medium.freecodecamp.org/javascript-from-callbacks-to-async-await-1cc090ddad99/)
+
+  - [Discord.JS - Understanding async/await](https://discordjs.guide/additional-info/async-await/)
+
+  - [Alligator.io - Exploring Async/Await Functions in JavaScript](https://alligator.io/js/async-functions/)
+
+  - [Evie - Understanding Promises](https://js.evie.dev/promises/)
+
 </details>
