@@ -2,23 +2,41 @@
   font-family: Maison Neue Medium;
   src: url(https://s.dyno.gg/web-assets/fonts/Maison%20Neue%20Medium.otf);
 }
-html,
-body {
+
+html, body {
   background-color: #161E2D;
   margin: 0;
 }
 
 #container {
-  margin: 8px;
+  padding: 8px 32px;
 }
 
 body, a {
-  font-family:Maison Neue Medium;
+  font-family: Maison Neue Medium;
   color: white;
 }
 
 h1 {
   font-size: 32px;
+}
+
+#navbar {
+  background-color: #222C45;
+  padding: 0px 14px;
+}
+
+#navbar a {
+  height: 46px;
+  line-height: 46px;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 8px;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  color: #F35353;
 }
 
 details {
