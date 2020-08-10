@@ -10,6 +10,7 @@ html, body {
 
 #container {
   padding: 8px 32px;
+  margin-bottom: 1rem;
 }
 
 body, a {
@@ -39,9 +40,23 @@ h1 {
   color: #F35353;
 }
 
-details {
+details > :not(summary) {
   margin-left: 2em;
   padding-top: 0.5em;
+}
+code {
+  padding: 4px;
+  font-weight: 900;
+  background-color: #002B36;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 10px 0;
+}
+
+td {
+  padding: 10px 0;
 }
 
 footer {

@@ -14,6 +14,7 @@
       <a href=""><img src="https://s.dyno.gg/web-assets/landing/logo.png"></a>
       <a href="">Home</a>
       <a href="resources">Resources</a>
+      <a href="references">References</a>
     </div>
     <div id="container">
       <section>
@@ -26,5 +27,14 @@
         repository.</a>
     </footer>
   </body>
+  <script>
+    const el = document.getElementsByTagName('code')
+    console.log(el);
+    for (const e in el) {
+      if (isNaN(e)) continue;
+      console.log(e);
+      el[e].innerHTML = el[e].innerHTML.replace(/(\/.+\/)([gmiyus]+)?/g, (full, g1,g2) => `<span style="color:#D30102">${g1}</span>${g2 !== undefined ? `<span style="color:#859900">${g2}</span>` : ''}`)
+    }
+  </script>
 
 </html>
