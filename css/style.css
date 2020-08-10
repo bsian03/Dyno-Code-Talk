@@ -44,10 +44,11 @@ details > :not(summary) {
   margin-left: 2em;
   padding-top: 0.5em;
 }
-code {
+:not(pre) > code {
   padding: 4px;
   font-weight: 900;
   background-color: #002B36;
+  color: #839496;
 }
 
 table {
