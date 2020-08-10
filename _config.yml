@@ -4,4 +4,4 @@ relative_links:
   enabled: true
   collections: true
 baseurl: /dyno-code-talk
-markdown: CommonMarkGhPages
+markdown: GFM
