@@ -41,6 +41,8 @@ Do you need help with something code related? Here are some resources that may b
     <summary>Callbacks</summary>
 
   - [Callback Hell](http://callbackhell.com/)
+  
+  - [JavaScript Info](https://javascript.info/callbacks/)
 
   - Someone help me find more resources for this pls thx
 
