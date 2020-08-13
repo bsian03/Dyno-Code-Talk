@@ -44,7 +44,7 @@ Do you need help with something code related? Here are some resources that may b
   
   - [JavaScript Info](https://javascript.info/callbacks/)
 
-  - Someone help me find more resources for this pls thx
+  - [freeCodeCamp](https://www.freecodecamp.org/news/javascript-callback-functions-what-are-callbacks-in-js-and-how-to-use-them/)
 
   </details>
   <details>
