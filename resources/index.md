@@ -69,5 +69,17 @@ Do you need help with something code related? Here are some resources that may b
   - [Alligator.io - Exploring Async/Await Functions in JavaScript](https://alligator.io/js/async-functions/)
 
   - [Evie - Understanding Promises](https://js.evie.dev/promises/)
-
+  </details>
+  <details>
+    <summary>Discord API Libraries</summary>
+    <details>
+      <summary><a href="https://www.npmjs.com/package/discord.js">Discord.JS</a></summary>
+    - [Docs](https://discord.js.org/#/docs/main/stable/general/welcome)
+    - [Guide](https://discordjs.guide/)
+    </details>
+    <details>
+      <summary><a href="https://www.npmjs.com/package/eris">Eris</a></summary>
+    - [Docs](https://abal.moe/Eris/docs)
+    </details>
+  </details>
 </details>
