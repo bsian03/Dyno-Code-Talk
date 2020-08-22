@@ -85,5 +85,11 @@ Do you need help with something code related? Here are some resources that may b
   - [Docs](https://abal.moe/Eris/docs)
 
     </details>
+    <details>
+      <summary><a href="https://www.npmjs.com/package/detritus-client">Detritus</a></summary>
+
+  - [Docs](https://detritusjs.com/)
+
+    </details>
   </details>
 </details>
