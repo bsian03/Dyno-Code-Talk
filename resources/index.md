@@ -119,6 +119,8 @@ Do you need help with something code related? Here are some resources that may b
   - [Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
   
   - [tsconfig](https://www.typescriptlang.org/tsconfig/)
+  
+  - [Documentation](https://www.typescriptlang.org/docs/)
 
     </details>
     <details>
