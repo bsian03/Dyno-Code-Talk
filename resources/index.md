@@ -75,14 +75,14 @@ Do you need help with something code related? Here are some resources that may b
     <details>
       <summary><a href="https://www.npmjs.com/package/discord.js">Discord.JS</a></summary>
 
-  - [Docs](https://discord.js.org/#/docs/main/stable/general/welcome)
+  - [Docs](https://discord.js.org/#/docs/main/stable/general/welcome/)
   - [Guide](https://discordjs.guide/)
 
     </details>
     <details>
       <summary><a href="https://www.npmjs.com/package/eris">Eris</a></summary>
 
-  - [Docs](https://abal.moe/Eris/docs)
+  - [Docs](https://abal.moe/Eris/docs/)
 
     </details>
     <details>
@@ -90,6 +90,43 @@ Do you need help with something code related? Here are some resources that may b
 
   - [Docs](https://detritusjs.com/)
 
+    </details>
+  </details>
+  <details>
+    <summary>Web Frameworks/Libraries</summary>
+  
+  - [React](https://reactjs.org/)
+  - [Angular](https://angular.io/)
+  - [Vue](https://vuejs.org/)
+  
+  </details>
+</details>
+
+
+<details>
+  <summary>Typescript</summary>
+    <details>
+      <summary>Starting Out with Typescript</summary>
+
+  - [Migrating from JS](https://www.typescriptlang.org/docs/handbook/migrating-from-javascript.html/)
+  
+  - [Installation](https://www.typescriptlang.org/download/)
+
+    </details>
+    <details>
+      <summary>References</summary>
+
+  - [Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
+  
+  - [tsconfig](https://www.typescriptlang.org/tsconfig/)
+
+    </details>
+    <details>
+      <summary>Other Websites</summary>
+
+  - [Playground](https://www.typescriptlang.org/play/)
+  
+  - [GitHub Repo](https://github.com/microsoft/TypeScript/)
     </details>
   </details>
 </details>
