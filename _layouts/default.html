@@ -15,7 +15,7 @@
       var anchorForId = function (id) {
         var anchor = document.createElement("a");
         anchor.className = "header-link";
-        anchor.href = "#" + id;
+        anchor.href = "{{ site.baseurl }}{{ page.url }}#" + id;
         anchor.innerHTML = "<i class=\"fa fa-link\"></i>";
         return anchor;
       };
