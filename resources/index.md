@@ -1,10 +1,8 @@
 # Resources
 Do you need help with something code related? Here are some resources that may be useful to you. If you wish to add to this list, feel free to open a PR on the GitHub repository linked at the bottom of this page.
 
-<details>
-  <summary>JavaScript</summary>
-  <details>
-    <summary>Learning JavaScript</summary>
+## JavaScript
+### Learning JavaScript
 
   - [Codecademy - JavaScript catalogue](https://www.codecademy.com/catalog/language/javascript/)
 
@@ -24,9 +22,7 @@ Do you need help with something code related? Here are some resources that may b
 
   - [w3schools - JavaScript Tutorial](https://www.w3schools.com/js/)
 
-  </details>
-  <details>
-    <summary>Documentation</summary>
+### Documentation
 
   - [MDN - Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/)
 
@@ -36,9 +32,7 @@ Do you need help with something code related? Here are some resources that may b
 
   - [w3schools - JavaScript and HTML DOM reference](https://www.w3schools.com/jsref/)
 
-  </details>
-  <details>
-    <summary>Callbacks</summary>
+### Callbacks
 
   - [Callback Hell](http://callbackhell.com/)
   
@@ -46,9 +40,7 @@ Do you need help with something code related? Here are some resources that may b
 
   - [freeCodeCamp](https://www.freecodecamp.org/news/javascript-callback-functions-what-are-callbacks-in-js-and-how-to-use-them/)
 
-  </details>
-  <details>
-    <summary>Promises/Asynchronous functions</summary>
+### Promises/Asynchronous functions
 
   - [MDN - Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/)
 
@@ -69,52 +61,43 @@ Do you need help with something code related? Here are some resources that may b
   - [Alligator.io - Exploring Async/Await Functions in JavaScript](https://alligator.io/js/async-functions/)
 
   - [Evie - Understanding Promises](https://js.evie.dev/promises/)
-  </details>
-  <details>
-    <summary>Discord API Libraries</summary>
-    <details>
-      <summary><a href="https://www.npmjs.com/package/discord.js">Discord.JS</a></summary>
 
+### Discord API Libraries
+<details>
+  <summary><a href="https://www.npmjs.com/package/discord.js">Discord.JS</a></summary>
+    
   - [Docs](https://discord.js.org/#/docs/main/stable/general/welcome/)
   - [Guide](https://discordjs.guide/)
 
-    </details>
-    <details>
-      <summary><a href="https://www.npmjs.com/package/eris">Eris</a></summary>
+</details>
+<details>
+  <summary><a href="https://www.npmjs.com/package/eris">Eris</a></summary>
 
   - [Docs](https://abal.moe/Eris/docs/)
 
-    </details>
-    <details>
-      <summary><a href="https://www.npmjs.com/package/detritus-client">Detritus</a></summary>
+</details>
+<details>
+  <summary><a href="https://www.npmjs.com/package/detritus-client">Detritus</a></summary>
 
   - [Docs](https://detritusjs.com/)
 
-    </details>
-  </details>
-  <details>
-    <summary>Web Frameworks/Libraries</summary>
+</details>
+
+### Web Frameworks/Libraries
   
   - [React](https://reactjs.org/)
   - [Angular](https://angular.io/)
   - [Vue](https://vuejs.org/)
-  
-  </details>
-</details>
 
 
-<details>
-  <summary>Typescript</summary>
-    <details>
-      <summary>Starting Out with Typescript</summary>
+## TypeScript
+### Starting Out with Typescript
 
   - [Migrating from JS](https://www.typescriptlang.org/docs/handbook/migrating-from-javascript.html)
   
   - [Installation](https://www.typescriptlang.org/download)
 
-    </details>
-    <details>
-      <summary>References</summary>
+### References
 
   - [Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
   
@@ -122,13 +105,8 @@ Do you need help with something code related? Here are some resources that may b
   
   - [Documentation](https://www.typescriptlang.org/docs)
 
-    </details>
-    <details>
-      <summary>Other Websites</summary>
+### Other Websites
 
   - [Playground](https://www.typescriptlang.org/play)
   
   - [GitHub Repo](https://github.com/microsoft/TypeScript)
-    </details>
-  </details>
-</details>

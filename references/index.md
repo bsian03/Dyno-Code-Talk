@@ -2,10 +2,8 @@
 
 Here is a list of maybe useful information that you can use in your projects. Please bear in mind that this is not official documentation advice, please make sure you refer to the original documentation.
 
-<details>
-  <summary>Discord Regular Expressions</summary>
-  <details>
-  <summary>Parsed/Mentions</summary>
+## Discord Regular Expressions
+### Parsed/Mentions
 
 | Description   | Regular Expression                 |
 | ------------- |------------------------------------|
@@ -15,9 +13,7 @@ Here is a list of maybe useful information that you can use in your projects. Pl
 | Role          | `/<@$(?<id>\d+)>/gi`               |
 | User          | `/<@!?(?<id>\d+)>/gi`              |
 
-  </details>
-  <details markdown="1">
-  <summary>URLs</summary>
+### URLs
 
 | Description      | Regular Expression                                                                                          |
 | ---------------- | ----------------------------------------------------------------------------------------------------------- |
@@ -26,9 +22,7 @@ Here is a list of maybe useful information that you can use in your projects. Pl
 | Attachment       | `/https?:\/\/cdn\.discordapp\.com\/attachments\/(?<cID>\d+)\/(?<attID>\d+)\/[\w.,;:\?\!\@\^\$-]\.[a-z]+/gi` |
 | Invite link      | `/(?:https?:\/\/)?(?:\w+\.)?discord(?:(?:(?:app)?\.com\/invite)\|\.gg)\/(?<code>[a-z0-9-]+)/gi`             |
 
-  </details>
-  <details markdown="1">
-  <summary>Markdown</summary>
+### Markdown
 
 | Description   | Regular Expression  |
 | ------------- | ------------------- |
@@ -40,10 +34,7 @@ Here is a list of maybe useful information that you can use in your projects. Pl
 | Code string   | ``/`.+`/g``         |
 | Code block    | ````/```.+```/g```` |
 
-  </details>
-</details>
-<details markdown="1">
-  <summary>Discord Embed Limits</summary>
+## Discord Embed Limits
 
 These limits are in characters unless specified
 
@@ -58,5 +49,3 @@ These limits are in characters unless specified
 | Author name | 256        |
 
 The total number of characters of the above must also not exceed 6000 characters.
-
-</details>
