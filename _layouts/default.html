@@ -6,11 +6,43 @@
     <title>Dyno™️ #code-talk</title>
     <base href="{{ site.url }}{{ site.baseurl }}/">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/anchorlink.css">
     <link rel="icon" type="image/png" href="https://s.dyno.gg/web-assets/landing/logo.png" />
-    <link rel="stylesheet"
-      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/solarized-dark.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/solarized-dark.min.css">
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
+    <script>
+      var anchorForId = function (id) {
+        var anchor = document.createElement("a");
+        anchor.className = "header-link";
+        anchor.href = "#" + id;
+        anchor.innerHTML = "<i class=\"fa fa-link\"></i>";
+        return anchor;
+      };
+
+      var linkifyAnchors = function (level, containingElement) {
+        var headers = containingElement.getElementsByTagName("h" + level);
+        for (var h = 0; h < headers.length; h++) {
+          var header = headers[h];
+
+          if (typeof header.id !== "undefined" && header.id !== "") {
+            header.appendChild(anchorForId(header.id));
+          }
+        }
+      };
+
+      document.onreadystatechange = function () {
+        if (this.readyState === "complete") {
+          var contentBlock = document.getElementById("container");
+          if (!contentBlock) {
+            return;
+          }
+          for (var level = 1; level <= 6; level++) {
+            linkifyAnchors(level, contentBlock);
+          }
+        }
+      };
+    </script>
   </head>
 
   <body>
@@ -36,7 +68,6 @@
   </body>
   <script>
     const el = document.getElementsByTagName('code')
-    console.log(el[0]);
     for (const e in el) {
       if (isNaN(e)) continue;
       if (el[e].parentElement instanceof HTMLPreElement) continue;
@@ -44,8 +75,7 @@
         el[e].innerHTML = el[e].innerHTML.substr(2);
         continue;
       };
-      console.log(e);
-      el[e].innerHTML = el[e].innerHTML.replace(/(\/.+\/)([gmiyus]+)?/g, (full, g1,g2) => `<span style="color:#D30102">${g1}</span>${g2 !== undefined ? `<span style="color:#859900">${g2}</span>` : ''}`)
+      el[e].innerHTML = el[e].innerHTML.replace(/(\/.+\/)([gmiyus]+)?/g, (full, g1, g2) => `<span style="color:#D30102">${g1}</span>${g2 !== undefined ? `<span style="color:#859900">${g2}</span>` : ''}`)
     }
   </script>
 
