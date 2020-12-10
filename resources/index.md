@@ -108,9 +108,9 @@ Do you need help with something code related? Here are some resources that may b
     <details>
       <summary>Starting Out with Typescript</summary>
 
-  - [Migrating from JS](https://www.typescriptlang.org/docs/handbook/migrating-from-javascript.html/)
+  - [Migrating from JS](https://www.typescriptlang.org/docs/handbook/migrating-from-javascript.html)
   
-  - [Installation](https://www.typescriptlang.org/download/)
+  - [Installation](https://www.typescriptlang.org/download)
 
     </details>
     <details>
@@ -118,17 +118,17 @@ Do you need help with something code related? Here are some resources that may b
 
   - [Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
   
-  - [tsconfig](https://www.typescriptlang.org/tsconfig/)
+  - [tsconfig](https://www.typescriptlang.org/tsconfig)
   
-  - [Documentation](https://www.typescriptlang.org/docs/)
+  - [Documentation](https://www.typescriptlang.org/docs)
 
     </details>
     <details>
       <summary>Other Websites</summary>
 
-  - [Playground](https://www.typescriptlang.org/play/)
+  - [Playground](https://www.typescriptlang.org/play)
   
-  - [GitHub Repo](https://github.com/microsoft/TypeScript/)
+  - [GitHub Repo](https://github.com/microsoft/TypeScript)
     </details>
   </details>
 </details>
