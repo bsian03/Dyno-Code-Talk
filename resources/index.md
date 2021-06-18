@@ -7,6 +7,8 @@ Do you need help with something code related? Here are some resources that may b
 
   - [Discord API](https://discord.gg/discord-api)
 
+  - [Eris](https://discord.gg/eris)
+
   - [Discord.JS](https://discord.gg/bRCvFy9)
 
   - [Discord.py](https://discord.gg/r3sSKJJ)
