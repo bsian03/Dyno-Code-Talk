@@ -5,13 +5,14 @@ Here is a list of maybe useful information that you can use in your projects. Pl
 ## Discord Regular Expressions
 ### Parsed/Mentions
 
-| Description   | Regular Expression                 |
-| ------------- |------------------------------------|
-| Emoji (any)   | `/<a?:(?<name>\w+):(?<id>\d+)>/gi` |
-| Channel       | `/<#(?<id>\d+)>/gi`                |
-| everyone/here | `/@(everyone\|here)/g`             |
-| Role          | `/<@$(?<id>\d+)>/gi`               |
-| User          | `/<@!?(?<id>\d+)>/gi`              |
+| Description   | Regular Expression                   |
+| ------------- | ------------------------------------ |
+| Emoji (any)   | `/<a?:(?<name>\w+):(?<id>\d+)>/gi`   |
+| Channel       | `/<#(?<id>\d+)>/gi`                  |
+| everyone/here | `/@(everyone\|here)/g`               |
+| Role          | `/<@$(?<id>\d+)>/gi`                 |
+| User          | `/<@!?(?<id>\d+)>/gi`                |
+| Timestamp     | `/<t:\d+(?::(?<flag>[tTdDfFR]))?>/g` |
 
 ### URLs
 
