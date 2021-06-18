@@ -3,5 +3,5 @@ plugins:
 relative_links:
   enabled: true
   collections: true
-baseurl: /dyno-code-talk
+baseurl: /dyno-code-dev
 markdown: GFM
